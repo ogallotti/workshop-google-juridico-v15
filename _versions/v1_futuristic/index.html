@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Titulo da Pagina</title>
+  <meta name="description" content="Descricao para SEO">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- intl-tel-input (para formularios com telefone) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@23.0.10/build/css/intlTelInput.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-meta">
+        <span>Online e ao vivo</span>
+        <span>•</span>
+        <span>28 de Fevereiro</span>
+        <span>•</span>
+        <span>09h30 às 17h</span>
+      </div>
+      <h1 class="glow-text">
+        Apenas 1 dia para você <span class="neon-gradient-text">dominar o Ecossistema Google</span> na Análise Processual.
+      </h1>
+      <p>
+        Integre o poder de análise de provas do NotebookLM com a capacidade de redação do Gemini. Uma metodologia segura e validada para multiplicar sua eficiência com ética.
+      </p>
+      <div class="hero-cta-wrapper">
+        <a href="#pricing" class="btn">Quero Adquirir Agora</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEM / SOLUTION SECTION -->
+  <section class="section" data-aos="fade-up">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">O Fim do <span class="text-gradient">trabalho braçal</span> no Direito.</h2>
+        <p class="section-desc">
+          O volume processual explodiu, mas o seu tempo continua o mesmo. Nesta imersão, você dominará o Ecossistema Google para delegar à IA a leitura exaustiva.
+        </p>
+      </div>
+
+      <div class="cards-grid">
+        <!-- Card 1 -->
+        <article class="feature-card glass-card">
+          <div class="card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          </div>
+          <h3>Para o Advogado</h3>
+          <p>Mais teses vencedoras em menos tempo. Foque na estratégia enquanto a IA estrutura a base.</p>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="feature-card glass-card">
+          <div class="card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <h3>Para o Magistrado</h3>
+          <p>Celeridade no gabinete com segurança decisória. Análise de provas complexas em segundos.</p>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="feature-card glass-card">
+          <div class="card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+          </div>
+          <h3>Para o Servidor</h3>
+          <p>Eficiência na triagem e análise de dados. Reduza o passivo processual com tecnologia.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMULARIO -->
+  <section id="contato" class="section">
+    <div class="container">
+      <h2 data-aos="fade-up">Entre em Contato</h2>
+
+      <form
+        name="contato"
+        method="POST"
+        data-netlify="true"
+        netlify-honeypot="bot-field"
+        data-form
+      >
+        <input type="hidden" name="form-name" value="contato">
+        <p hidden><label>Nao preencha: <input name="bot-field"></label></p>
+
+        <div class="form-group">
+          <label class="form-label" for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" class="form-input" required autocomplete="name">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="email">E-mail</label>
+          <input type="email" id="email" name="email" class="form-input" required autocomplete="email">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="telefone">WhatsApp</label>
+          <input type="tel" id="telefone" name="telefone" class="form-input" required autocomplete="tel">
+        </div>
+
+        <div class="form-feedback"></div>
+
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Nome. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@23.0.10/build/js/intlTelInput.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
